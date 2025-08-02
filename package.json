@@ -1,0 +1,20 @@
+{
+  "name": "wk-marcos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rename.js",
+  "scripts": {
+    "build": "pkg ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "bin": "rename.js",
+  "pkg": {
+    "targets": ["node18-win-x64", "node18-macos-x64", "node18-linux-x64"]
+  }
+}
